@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{93DEC65C-BBBA-46D4-B1EB-7C1F34507051}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{1032F014-2734-47CB-BFBC-5A5D22BFEA3A}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
-    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <RootNamespace>ConsoleApplication1.Library</RootNamespace>
+    <AssemblyName>ConsoleApplication1.Library</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,14 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ConsoleApplication1.Library\ConsoleApplication1.Library.csproj">
-      <Project>{1032F014-2734-47CB-BFBC-5A5D22BFEA3A}</Project>
-      <Name>ConsoleApplication1.Library</Name>
-    </ProjectReference>
+    <Compile Include="StringUtils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

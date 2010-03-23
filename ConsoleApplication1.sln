@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{93DEC65C-BBBA-46D4-B1EB-7C1F34507051}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1.Tests", "ConsoleApplication1.Tests\ConsoleApplication1.Tests.csproj", "{0EFA21C6-70A8-4751-AEAC-B65DF3706C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1.Library", "ConsoleApplication1.Library\ConsoleApplication1.Library.csproj", "{1032F014-2734-47CB-BFBC-5A5D22BFEA3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{93DEC65C-BBBA-46D4-B1EB-7C1F34507051}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93DEC65C-BBBA-46D4-B1EB-7C1F34507051}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93DEC65C-BBBA-46D4-B1EB-7C1F34507051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFA21C6-70A8-4751-AEAC-B65DF3706C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFA21C6-70A8-4751-AEAC-B65DF3706C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFA21C6-70A8-4751-AEAC-B65DF3706C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFA21C6-70A8-4751-AEAC-B65DF3706C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1032F014-2734-47CB-BFBC-5A5D22BFEA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1032F014-2734-47CB-BFBC-5A5D22BFEA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1032F014-2734-47CB-BFBC-5A5D22BFEA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1032F014-2734-47CB-BFBC-5A5D22BFEA3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
